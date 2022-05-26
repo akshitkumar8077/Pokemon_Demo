@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is the project in which we can display the name and number of moves of pokemon using API and select box.
+
 ## Available Scripts
 
 In the project directory, you can run:
