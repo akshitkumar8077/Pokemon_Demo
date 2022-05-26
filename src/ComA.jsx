@@ -19,17 +19,6 @@ const ComA = () => {
   });
   return (
     <>
-      <h1>
-        You have chosen option : <span style={{ color: "green" }}> {num} </span>
-      </h1>
-      <h1>
-        You have chosen pokemon :{" "}
-        <span style={{ color: "green" }}> {name} </span>
-      </h1>
-      <h1>
-        Moves of chosen pokemon :{" "}
-        <span style={{ color: "green" }}> {moves} </span>
-      </h1>
       <select
         value={num}
         onChange={(event) => {
@@ -62,6 +51,17 @@ const ComA = () => {
         <option value="24">24</option>
         <option value="25">25</option>
       </select>
+      <h1>
+        You have chosen option : <span style={{ color: "green" }}> {num} </span>
+      </h1>
+      <h1>
+        You have chosen pokemon :{" "}
+        <span style={{ color: "green" }}> {name} </span>
+      </h1>
+      <h1>
+        Moves of chosen pokemon :{" "}
+        <span style={{ color: "green" }}> {moves} </span>
+      </h1>
     </>
   );
 };
